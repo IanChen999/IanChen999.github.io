@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Development Engineer in Data/AI direction 🧑‍💻 having an experience of building Machine Learning models and Mobile applications with Python / R / Java / Nodejs / Swift and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/https://drive.google.com/file/d/1EqD-AX6Bab7lCmXystZ3AahSbBd4O5iO/view?usp=share_link/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1EqD-AX6Bab7lCmXystZ3AahSbBd4O5iO/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
