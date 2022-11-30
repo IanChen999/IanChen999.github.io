@@ -23,7 +23,7 @@ const greeting = {
   username: "Ian Chen",
   title: "Hi all, I'm Ian",
   subTitle: emoji(
-    "A passionate Software/Machine Learning/Development Engineer 🧑‍💻 having an experience of building Machine Learning models and Mobile applications with Python / R / Java / Nodejs / Swift and some other cool libraries and frameworks."
+    "A passionate Development Engineer in Data/AI direction 🧑‍💻 having an experience of building Machine Learning models and Mobile applications with Python / R / Java / Nodejs / Swift and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/https://drive.google.com/file/d/1EqD-AX6Bab7lCmXystZ3AahSbBd4O5iO/view?usp=share_link/view?usp=sharing", // Set to empty to hide the button
@@ -189,9 +189,19 @@ const workExperiences = {
       desc: "Authored and integrated tooling solutions to the build pipelines using multiple SCMs; Implemented the release and build process for WatchDox project; provided a clean and efficient CI/CD environment. Designed new algorithms for all company’s products’ SHH keys; shortened the time which required manually replacement before by 80%; Worked with development team to facilitate tooling solutions; Successfully migrated projects across different platforms."
     },
     {
+      role: "Software Engineer",
+      company: "GS1",
+      companylogo: require("./assets/images/GS1Circle.png"),
+      date: "Dec 2019 – May 2020",
+      descBullets: [
+        "Designed and developed many key back and front-end components of the company’s online retailer/item management application (SOAP/REST API); Inserted emergency item list module for merchandise to provide solutions under real-time COVID-19 situation and shortened company transaction time by 25%.",
+        "Added Pan Zoom features to company’s website to show labels of items by NPM; Developed a generic Spring Batch based mapping tool allowing JDBC, and Log4j specification of mapping rules between different data providers/consumers."
+      ]
+    },
+    {
       role: "Mobile Software Developer",
       company: "FLIR Systems",
-      companylogo: require("./assets/images/FLIRlogo.png"),
+      companylogo: require("./assets/images/FLIRCircle.png"),
       date: "May 2019 – Nov 2019",
       desc: "Developed and maintained the Mission Control Software (MCS) for Android tablet for unmanned air flyer; Enhanced the ground control behavior between pilots and drones by adding the flyer trace-point feature, appraised positively by customers.",
       descBullets: [
@@ -323,6 +333,12 @@ const blogSection = {
       title: "Robo-Advisor for Crypto",
       description:
         "Cryptocurrency investment is risky. For every person making millions, there is someone losing the same amount. Luckily, Robo-Advisor for Crypto helps investors do exactly that! "
+    },
+    {
+      url: "https://drive.google.com/file/d/17LXUH7Ws6AdDwJsTFMJSLSlaRUuK4Pgb/view?usp=sharing",
+      title: "Risks & Opportunities of ML/AI in Healthcare",
+      description:
+        "Although it has been demonstrated to be effective in academic research and inference tasks across the economy, artificial intelligence and machine learning still needs to improve in the fundamental functions of public health or healthcare, namely protecting and promoting population health."
     }
   ],
   display: true // Set false to hide this section, defaults to true
