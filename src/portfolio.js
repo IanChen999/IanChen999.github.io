@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ian Chen",
+  title: "Hi all, I'm Ian",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software/Machine Learning/Development Engineer 🧑‍💻 having an experience of building Machine Learning models and Mobile applications with Python / R / Java / Nodejs / Swift and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/https://drive.google.com/file/d/1EqD-AX6Bab7lCmXystZ3AahSbBd4O5iO/view?usp=share_link/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/IanChen999",
+  linkedin: "https://www.linkedin.com/in/ian-chen-716197164/",
+  gmail: "yijunchen0402@gmail.com",
+  facebook: "https://www.facebook.com/profile.php?id=100008474466816&mibextid=LQQJ4d",
+  instagram: "https://www.instagram.com/ianyjyj/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE DEVELOPMENT/TECH ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK TO CREATE SOCIAL IMPACT",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Reseach on Impactful Machine Learning techniques on environment/healthcare/business"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Streamlit"
     )
   ],
 
@@ -126,23 +124,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of California, Berkeley",
+      logo: require("./assets/images/BerkeleyLogo.png"),
+      subHeader: "Master of Development Engineering in Data/AI for Social Impact",
+      duration: "August 2021 - December 2022",
+      desc: "Participated in the research of methane/wildfire robotic sensor detections, supervised by Prof. Alice M. Agogino.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Classified methane leakage video dataset and performed leak volume prediction.",
+        "Designed a framework for optimizing robotic sensors as a preliminary step towards realizing the responsiveness of robots in disaster circumstances."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Waterloo",
+      logo: require("./assets/images/WaterlooIcon.png"),
+      subHeader: "Bachelor of Science in Computer Science and Statistics, Honors Co-op Degree",
+      duration: "September 2017 - August 2021",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Statistical Forcasting, Machine Learning...",
+      descBullets: ["2nd Place in HackTheNorth hackathon 2019"]
     }
   ]
 };
@@ -153,15 +151,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "ML & Cloud Computing", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Mobile Developing",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Frontend/Design",
       progressPercentage: "60%"
     }
   ],
@@ -175,28 +173,31 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Amazon.com",
+      companylogo: require("./assets/images/AmazonLogo.png"),
+      date: "May 2022 – Sep 2022",
+      desc: "Utilized AWS SageMaker, Rekognition, and S3 to conduct machine learning research on Amazon Ads Sponsor Display; Integrated CLIP and VirTex image & attributes similarity models to trigger Lambda generating 1) visual similarity scores 2) Image vs. Text similarity scores between two batches of Amazon ASINs. 3) Ranks of product based on similarity scores.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Improved the accuracy of current BERT based Deep Learning model for Advertisement vending flow by avg. 23%; added 2 consolidated columns of relevance scores to the current model output; published a visual similarity model implementation guide and a ML research poster on vision similarity model for Amazon’s tech blog.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Build & DevOps Engineer",
+      company: "BlackBerry",
+      companylogo: require("./assets/images/BlackBerryLogo.png"),
+      date: "Aug 2020 – Feb 2021",
+      desc: "Authored and integrated tooling solutions to the build pipelines using multiple SCMs; Implemented the release and build process for WatchDox project; provided a clean and efficient CI/CD environment. Designed new algorithms for all company’s products’ SHH keys; shortened the time which required manually replacement before by 80%; Worked with development team to facilitate tooling solutions; Successfully migrated projects across different platforms."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mobile Software Developer",
+      company: "FLIR Systems",
+      companylogo: require("./assets/images/FLIRlogo.png"),
+      date: "May 2019 – Nov 2019",
+      desc: "Developed and maintained the Mission Control Software (MCS) for Android tablet for unmanned air flyer; Enhanced the ground control behavior between pilots and drones by adding the flyer trace-point feature, appraised positively by customers.",
+      descBullets: [
+        "Implemented the Video and Telemetry modules and helped release the AeryonCommand for Android and iOS, a broadcasting app to allow real-time readout of critical aspects of aircraft location and performance with low latencies (under 3 seconds).",
+        "Wrote lots of UIs and increased the API test coverage for the software by 20%; vindicated the fly status data dashboard feature."
+      ]
     }
   ]
 };
@@ -216,25 +217,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Biketopia.png"),
+      projectName: "Biketopia",
+      projectDesc: "Developed an app and linked with bicycle safety air bag system; sold the airbag system prototype on Amazon",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://drive.google.com/file/d/0By2JI2rWi8jMR2RpM1VyR3BFZzA/view?usp=sharing&resourcekey=0-k48thGuKt1rPTXPTm6OHIQ"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Crypto.png"),
+      projectName: "CryptoRoboAdvisor",
+      projectDesc: "A cryptocurrency portfolio risk and recommendation tool powered by machine learning algorithm and front-end web services that aims for helping different levels of investors with different financial goals",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/IanChen999/crypto-portfolio-advisor"
         }
       ]
     }
@@ -300,7 +301,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -312,16 +313,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://drive.google.com/file/d/1kZ8JDGeLI6DoDxr6eTARSDdXcxkk8lTy/view?usp=sharing",
+      title: "Tech-Enabled Social Enterprise: Goals, Expectations, and Challenges",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Is it conceivable to make an economical, human-driven, versatile economy that accomplishes different targets including development, consideration, and value?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://datax.berkeley.edu/projects/robo-advisor-for-crypto/",
+      title: "Robo-Advisor for Crypto",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Cryptocurrency investment is risky. For every person making millions, there is someone losing the same amount. Luckily, Robo-Advisor for Crypto helps investors do exactly that! "
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +344,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,21 +357,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-5105029974",
+  email_address: "yijunchen0402@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "YijunChen19", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

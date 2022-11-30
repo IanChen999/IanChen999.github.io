@@ -1,5 +1,5 @@
 {
-  "homepage": "https://developerfolio.js.org/",
+  "homepage": "https://ianyijunchen.com",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
-  "scripts": {
+  "scripts":{
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
